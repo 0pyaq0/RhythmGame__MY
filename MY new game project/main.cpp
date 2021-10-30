@@ -83,6 +83,7 @@ int note_set = 1;
 //메인 함수
 int main(void)
 {
+	system("mode con: cols=79 lines=30");
 	ALL_START:
 	FMOD_SYSTEM      *system;
 	FMOD_SOUND       *sound1, *sound2;
